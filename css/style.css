@@ -1,0 +1,44 @@
+ 	div{align=center;}
+
+	h1{ 
+      font-family: 宋体;
+      font-size:35px;
+      color: orange;
+    }
+
+ 	body{
+      text-align:center;
+      font-size:12px; 
+      background: radial-gradient(#00FF7F, SpringGreen)
+    }
+
+    p{  
+      font-family:宋体;
+      font-size:20px;
+      color: blue;
+      text-align:left;
+    }  
+
+    hr{ 
+      color:red; 
+      width:400px;
+    }
+
+    a/*:link*/{
+	  font-family: 宋体;
+      font-size:25px;
+      text-decoration:none;
+	  color:white;
+	  background-color:#00FF00;
+	  padding:0.2em 0.6em;
+	  border-right:1px solid white;
+    }
+    a:visited {background-color: #00FF00;} 	/* 已访问的链接 */
+    a:hover {background-color:#ff3300;font-size: 300%;/*text-decoration: underline*/}
+    a:active {background-color: #0000FF;}
+ /*	在 CSS 定义中，a:hover 必须位于 a:link 和 a:visited 之后，这样才能生效！
+注释：在 CSS 定义中，a:active 必须位于 a:hover 之后，这样才能生效*/！
+/*a:link {color: #FF0000}		/* 未访问的链接 */
+/*a:visited {color: #00FF00}	/* 已访问的链接 */
+/*a:hover {color: #FF00FF}	 鼠标移动到链接上 
+/**//*a:active {color: #0000FF}**//*/	/* 选定的链接 *//***//
